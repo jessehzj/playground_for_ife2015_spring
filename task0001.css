@@ -1,0 +1,209 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("./VeraSeBd.ttf");
+    font-weight:bold;
+    font-style: italic;
+}
+
+h1 {
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:  fantasy;
+}
+
+h2 {
+    font-size: 14px;
+    color: green;
+    text-decoration: underline;
+    font-family: monospace;
+}
+
+p {
+    font-family: myFirstFont;
+    font-size: 12px;
+    color: yellow;
+    background-color: black;
+    text-indent: 2em;
+    word-spacing: 1em;
+    line-height: 1em;
+   /* white-space: nowrap;*/
+}
+
+img {
+    border-width: 2px;
+    border-style:  solid;
+    border-color:  red;
+
+}
+
+.centerRetangle {
+    width: 960px;
+    height: 480px;
+    background-color: red;
+    margin:0 auto;
+}
+
+.centerRetangle1 {
+    width: 960px;
+    height: 480px;
+    background-color: blue;
+    display: block;
+}
+
+.roundedRetangle {
+    width: 480px;
+    height: 240px;
+    
+}
+
+#container {
+    height: 600px;
+};
+
+
+#divA {
+    background-color: red;
+    width:200px;
+    height:200px;
+    float:left;
+
+}
+
+#divB {
+    background-color: green;
+    height:200px;
+}
+
+#divC {
+    background-color: yellow;   
+    height:200px;
+}
+
+#divA1 {
+    background-color: red;
+    width:200px;
+    height:200px;
+    position:absolute;
+
+}
+
+#divB1 {
+    margin-left: 200px;
+    background-color: green;
+    height:200px;
+}
+
+#divC1 {
+    background-color: yellow;   
+    height:200px;
+}
+
+#Sudoku1 {
+    height: 500px;
+    background-color: red;
+    overflow: hidden;
+
+}
+
+#Sudoku2 {
+    height: 500px;
+    background-color: green;
+}
+
+#Sudoku3 {
+    height: 600px;
+    background-color: yellow;
+}
+
+ /* .blueSquare {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    background-color: blue;
+}  */
+
+#Sudoku3 .blueSquare {
+    float: left;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    background-color: blue;
+
+
+} 
+
+
+#Sudoku1 .left {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+    background-color: blue;
+}
+
+#Sudoku1 .right {
+    float: right;
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+    background-color: blue;
+}
+
+#Sudoku1 .center{
+    height: 100px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 10px;
+    background-color: blue;
+}
+
+.rtop{
+    width: 500px; 
+    margin: 0 auto;
+}
+.r{
+    height: 1px;
+    margin: 0 5px; 
+    background-color:black;
+}
+
+.r1{
+    height: 1px;
+    margin: 0 3px; 
+    border-left: 1px solid black;
+     border-right: 1px solid black;
+}
+.r2{
+    height: 1px;
+    border-left: 1px solid black;
+     border-right: 1px solid black;
+}
+.r3{
+    height: 1px;
+    margin: 0 2px; 
+    border-left: 1px solid black;
+     border-right: 1px solid black;
+    }
+.r4{
+    height: 1px;
+    margin: 0 1px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;}
+
+.mid {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.mid p{
+    margin:0 0; 
+    font-size: 12px; 
+    line-height: 1.5em; 
+    color: black;
+    background-color: white; 
+    text-indent: 2em; 
+    white-space: pre-wrap;
+    padding:0 10px;
+}
+
