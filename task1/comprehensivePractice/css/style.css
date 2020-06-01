@@ -1,18 +1,379 @@
-#header {
-    margin: auto;
+
+.header {
     width: 100%;
     height: 80px;
     background-color: lightblue;
+    text-align: center;
 }
 
-#header a {
+body {
+    margin: 0px;
+    background-color:rgb(238, 238, 238) ;
+}
+
+@media screen and (max-width:980px){
+    .header { width: 980px; }
+}
+
+p {
+    margin: 0px 0px;
+}
+
+.header .middle{
+    margin: auto;
+    width: 980px; 
+    height: 80px;
+}
+
+.header .middle a {
+    position: relative;
+    bottom: -51px;;
     float: right;
     margin-right: 28px;
     margin-bottom: 5px;
     font-size: 14px;
     font-family: Simsun;
+    text-decoration: none;
+    color: black;
 }
 
-#header #myLogo {
+.header .middle a:hover {
+    color: green;
+    text-decoration: underline;
+}
+.header .middle .myLogo {
+    float: left;
     height: 80px;
+    border-radius: 10px;
+}
+
+.githubLink {
+    display: block;
+    background-image: url(../img/GitHub_Logo_lightblue_edge.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: right;
+    margin-right: 10px;
+    width: 73px;
+    height: 30px;
+    position: relative;
+    top:  49px;
+}
+
+@media screen and (max-width:980px){
+    .githubLink { display: none; }
+    }
+
+.contentBody {
+    position: relative;
+    width: 100%;
+    height: 530px;
+    background-size: 100%;
+    background-repeat: repeat;
+    background-image: url(../img/Amazing-landscape-high-definition-desktop-wallpaper-HD.jpg);
+}
+
+.contentBody .textArea {
+    bottom: 5%;
+    right: 5%;
+    color: white;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    padding: 10px 10px 30px 10px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 100%;
+}
+
+.rectangle.a {
+    top: 0px;
+    height: 25%;
+    background: linear-gradient(to bottom, rgba(255,255,255, 0.7) , rgba(255,255,255, 0.5));
+}
+
+.rectangle.b {
+    top: 25%;
+    height: 75%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.5) , rgba(255,255,255,0));
+}
+
+.wrapper {
+    width: 100%;
+    height: 18.56px;
+}
+
+.contentBody .textArea .title{
+    font-size: 14px;
+    float: right;
+}
+
+.contentBody .textArea .paragraph{
+    font-family: simSun;
+    text-indent: 2em;
+    font-size: 12px;
+    line-height: 150%;
+    margin: 12px 0px 0px 0px;
+}
+
+@media screen and (max-width: 980px){
+    .contentBody { width: 980px;}
+}
+
+.block_wrapper {
+    height: auto;
+    padding-bottom: 70px;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+}
+
+
+.block {
+    width :320px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    margin: 10px 10px 0px 0px;
+}
+
+.block img {
+    width: 300px;
+    height: 180px;
+}
+
+.block p{
+    text-align: left;
+    text-indent: 2em;
+    width: 260px;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin: 15px 0px 0px 0px;
+    font-size: 12px;
+    line-height: 1.7em;
+    padding: 0px 30px 25px 30px;
+    font-family: sans-serif;
+}
+
+.introduction {
+    width: 100%;
+    height: 520px;
+    text-align: center;
+}
+
+.introduction img {
+    position: relative;
+    top: -30px;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+
+
+@font-face {
+    font-family: Century_Gothic;
+    src: url("./CenturyGothic.TTF");
+}
+
+.intro_title {
+    font-size: 20px;
+    font-family: Century_Gothic;
+    margin: 20px 0px 20px 0px;
+}
+
+.intro_detail {
+    font-size: 14px;
+    color: black;
+    width: 600px;
+    text-indent: 2em;
+    text-align: left;
+    margin: auto;
+}
+
+.footer {
+    height: auto;
+    font-size: 15px;
+    background-color: black;
+    text-align: center;
+}
+
+.footer a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.footer_header a
+{
+    margin-left: 30px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer_header {
+    padding-bottom: 10px;
+    border-width: 1px;
+    border-bottom-color: rgb(53, 52, 52);
+    border-bottom-style: solid;
+}
+
+.study_resourses, .friend_link {
+    margin-left: 30px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.study_resourses a, .friend_link a
+{
+    text-align: left;
+    font-size: 10px;
+    display: block;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.study_resourses .title, .friend_link .title
+{
+    text-align: left;
+    font-size: 12px;
+    display: block;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 12px;
+    color: white;
+    font-family: monospace;
+    margin-top: 30px;
+}
+
+.github_logo {
+    width: 100%;
+    height: 200px;
+    background-color: green;
+}
+
+.blog_body {
+    width: 980px;
+    margin: auto;
+}
+
+.article_wrapper {
+    display: inline-block;
+    width: 710px;
+    margin: 0px 0px 0px 0px;
+}
+
+.article {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+    width: 675px;
+    background-color: white;
+    padding: 20px 20px 15px 15px;
+}
+
+.article_title {
+    font-size: 16px;
+    color: purple;
+}
+
+.article_subtitle {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.article_content {
+    font-size: 12px;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+
+.publish_detail {
+    font-size: 10px;
+    margin-top: 35px;
+    color: gray;
+    text-align: right;
+}
+
+.article_day_tag {
+    position: absolute;
+    left: -54px; 
+    top: 30px;
+    width: 54px;
+    height: 40px;
+    background-color: purple;
+    text-align: center;
+}
+
+.article_day_tag  p {
+    color: white;
+    line-height: 40px;
+}
+
+.article_content_tag {
+    width: 54px;
+    height: 40px;
+    color: white;
+    background-color: purple;
+    text-align: center;
+}
+
+.search_wrapper {
+    vertical-align: top;
+    display: inline-block;
+    padding: 20px 15px;
+    width: 235px;
+    height: 40px;  
+    background-color: white;
+    /* margin-left: 30px; */
+}
+
+.search {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(231, 231, 231);
+    margin: auto;
+    background-image: url(/task1/comprehensivePractice/img/search_bar.jpg);
+    background-color: white;
+    width: 220px;
+    height: 40px;  
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.search_input {
+    vertical-align: top;
+    outline: none;
+    margin-left: 45px;
+    width: 130px;
+    height: 40px;
+    border-width: 0px;
+    color: rgb(238, 238, 238);
+    font-size: 14px;
+    padding: 0px 0px;
+}
+
+.search_button {
+    padding: 0px 0px;
+    display: inline-block;
+    border-width: 0px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+} 
+
+ol.article_classification {
+    width: 1200px;
+    height: 2000px;
+    
 }
